@@ -1,0 +1,44 @@
+.body {
+  background-color: #010b22;
+}
+
+.container {
+    border: 10px solid #ffaa16;
+    border-radius: 20px;
+    background-color: #000000;
+    height: auto;
+    text-align: center;
+    width: 550px;
+  }
+  
+  .ip {
+    margin-top: 20px;
+    width: 475px;
+    height: 200px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    font-size: 100px;
+    text-align: right;
+    padding: 10px;
+    background-color: #ffffff;
+  }
+  
+  .row {
+    text-align: center;
+  }
+  
+  .number {
+    border: 10px solid #ffffff;
+    border-radius: 16px;
+    width: 100px;
+    height: 100px;
+    margin: 10px 10px;
+    font-size: 40px;
+    font-weight: 400;
+    background-color: #ffaa16;
+    cursor: pointer;
+  }
+  
+  .calculation {
+    background-color: #3ef9ff;
+  }

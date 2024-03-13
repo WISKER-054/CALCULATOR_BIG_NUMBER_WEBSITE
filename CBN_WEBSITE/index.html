@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calculator</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="body">
+  <div class="container">
+    <input type="text" class="ip" id="ip" disabled placeholder="|">
+    <div class="row">
+      <button class="number calculation" onclick="buttonHandler(this, 'AC')">AC</button>
+      <button class="number calculation" onclick="buttonHandler(this, 'C')">C</button>
+      <button class="number calculation" onclick="buttonHandler(this, '%')">%</button>
+      <button class="number calculation" onclick="buttonHandler(this, '/')">/</button>
+    </div>
+    <div class="row">
+      <button class="number" onclick="buttonHandler(this)">7</button>
+      <button class="number" onclick="buttonHandler(this)">8</button>
+      <button class="number" onclick="buttonHandler(this)">9</button>
+      <button class="number calculation" onclick="buttonHandler(this, '*')">*</button>
+    </div>
+    <div class="row">
+      <button class="number" onclick="buttonHandler(this)">4</button>
+      <button class="number" onclick="buttonHandler(this)">5</button>
+      <button class="number" onclick="buttonHandler(this)">6</button>
+      <button class="number calculation" onclick="buttonHandler(this, '-')">-</button>
+    </div>
+    <div class="row">
+      <button class="number" onclick="buttonHandler(this)">3</button>
+      <button class="number" onclick="buttonHandler(this)">2</button>
+      <button class="number" onclick="buttonHandler(this)">1</button>
+      <button class="number calculation" onclick="buttonHandler(this, '+')">+</button>
+    </div>
+    <div class="row">
+      <button class="number" onclick="buttonHandler(this)">0</button>
+      <button class="number" onclick="buttonHandler(this)">00</button>
+      <button class="number" onclick="buttonHandler(this, '.')">.</button>
+      <button class="number calculation" onclick="calculate()">=</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
